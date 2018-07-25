@@ -1,20 +1,21 @@
 *{
 	box-sizing: border-box; 
+	font-family: 'Ubuntu', sans-serif; /*Using font from Google Fonts*/
 }
 
-
 h1{
-	font-family: "verdana";
-	text-align:center;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
 	color: white;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h2{
-	font-family: verdana;
 	font-weight: normal;
 	text-align: center;
-	font-size: 23px;
-	background: linear-gradient(to bottom right,  DeepSkyBlue, DodgerBlue);
+	font-size: 1.5em;
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -22,49 +23,27 @@ h2{
 }
 
 h3{
-	font-family: verdana;
-	font-size: 1em;
+	font-size: 1.25em;
+	font-weight: medium;
+	padding-top: 37px;
+	padding-left: 10px;
 }
 
 h4{
-	font-family: verdana;
 	font-weight: normal;
-	text-align: center;
-	font-size: 23px;
-	background: linear-gradient(to bottom right,  Orange, DarkOrange);
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	max-width: 1000px;
-}
-
-h6{
-	font-family: verdana;
-	font-weight: normal;
-	font-size: 20px;
+	font-size: 1.5em;
 	text-align: center;
 	color: white;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
-h5{
-	font-family: verdana;
-	font-weight: normal;
-	text-align: center;
-	font-size: 23px;
-	background: linear-gradient(to bottom right,  YellowGreen, OliveDrab);
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	max-width: 1000px;
-}
-
 p{
-	font-family: verdana;
 	text-align:left;
-	padding-top: 30px;
+	font-size: 1.2em;
+	padding-top: 5px;
 	padding-bottom: 30px;
+	padding-left: 10px;
 }
 
 section{
@@ -92,16 +71,15 @@ nav{
 }
 
 a{
-	font-family: verdana;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 1.15em;
 	color: white;
 	text-decoration: none;
 	margin-left: 100px;
 }
 
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
+	text-decoration: underline;
 }
 
 /* Simple grid */
@@ -129,6 +107,25 @@ nav a:hover{
 	float: left;
 }
 
+
 .padded{
 	padding: 20px; /* I add this to cells to add a little padding*/
 }
+
+#blue{
+	background: linear-gradient(to bottom right,  DeepSkyBlue, DodgerBlue);
+}
+
+#orange{
+	background: linear-gradient(to bottom right,  Orange, DarkOrange);
+}
+
+#green{
+	background: linear-gradient(to bottom right,  YellowGreen, OliveDrab);
+}
+
+#greyBack{
+	background: rgb(242, 242, 242);
+}
+
+

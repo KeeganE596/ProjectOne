@@ -3,35 +3,78 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>Project 1</title>
+		<title>Wgtn Network Infrastructure</title>
 		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
 	</head>
 
 
 	<body>
-		<header>
-			<section>
-				<h1>Project 1 - Wellington City Network</h1>
-				<h6>Keegan Edwards</h6>
+		<header id="top">
+				<h1>Wellington City Network Infrastructure</h1>
+				<section>
+				<h4>Keegan Edwards</h4>
 			</section>
 			<nav>
 				<div class="g-row">
 					<div class="g-30">
-						<a href="#home">At Home</a>
+						<a href="#street">ON THE STREET</a>
 					</div>
 					<div class="g-30">
-						<a href="#street">On the Street</a>
+						<a href="#home">AT HOME</a>
 					</div>
 					<div class="g-30">
-						<a href="#devices">Connected Devices</a>
+						<a href="#devices">CONNECTED DEVICES</a>
 					</div>
 				</div>
 			</nav>
 		</header>
 
 
+		<section id="street">
+			<h2 id="orange">- Infrastructure On the Street -</h2>
+			<div class="g-row">
+				<div class="g-30">
+					<img src="img/ChorusMarkings.jpg">
+				</div>
+				<div class="g-70 padded">
+					<h3>Chorus Street Markings</h3>
+					<p>The ground is marked so that contractors know where cables run or need to be run.</p>
+				</div>
+			</div>	
+			<div class="g-row" id="greyBack">
+				<div class="g-30">
+					<img src="img/ChorusCircle.jpg">
+				</div>
+				<div class="g-70 padded">
+					<h3>Chorus Underground Cable Access</h3>
+					<p>A cover placed over the cables run underground so that contractors can access the cables if needed.</p>
+				</div>
+			</div>
+			
+			<div class="g-row">
+				<div class="g-30">
+					<img src="img/ChorusGreenThing.jpg">
+				</div>
+				<div class="g-70 padded">
+					<h3>Chorus Small junction Box</h3>
+					<p>A small circular junction box for taking in, splitting off and maintaining connections.</p>
+
+				</div>
+			</div>	
+			<div class="g-row" id="greyBack">
+				<div class="g-30">
+					<img src="img/ChorusBigBox.jpg">
+				</div>
+				<div class="g-70 padded">
+					<h3>Chorus Big Junction Box</h3>
+					<p>A large rectangular junction box, it takes all the connections and splits them off to nearby homes and businesses. It also makes maintainance on the cables easier.</p>
+				</div>
+			</div>
+		</section>
+
 		<section id="home">
-			<h2>- Infrastructure At Home -</h2>
+			<h2 id="blue">- Infrastructure At Home -</h2>
 			<div class="g-row">
 				<div class="g-30">
 					<img src="img/FiberCableIn.jpg">
@@ -41,7 +84,7 @@
 					<p>The fiber optics cable connecting from the street a house. This carries the internet connection from the ISP.</p>
 				</div>
 			</div>
-			<div class="g-row">
+			<div class="g-row" id="greyBack">
 				<div class="g-30">
 					<img src="img/FiberBox.jpg">
 				</div>
@@ -59,7 +102,7 @@
 					<p>The router takes the connection from the fiber box and transmits it either wirelessly, over WiFi, or wired through an ethernet cable. Devices can connect to the router to access the internet.</p>
 				</div>
 			</div>
-			<div class="g-row">
+			<div class="g-row" id="greyBack">
 				<div class="g-30">
 					<img src="img/Phone.jpg">
 				</div>
@@ -70,59 +113,46 @@
 			</div>
 		</section>
 
-		<section id="street">
-			<h4>- Infrastructure On the Street -</h4>
-			<div class="g-row">
-				<div class="g-30">
-					<img src="img/Cover.jpg">
-				</div>
-				<div class="g-70 padded">
-					<h3>Pipes and Cables</h3>
-					<p>Pipes and cables are run under ground for data transmition.</p>
-				</div>
-			</div>	
-			<div class="g-row">
-				<div class="g-30">
-					<img src="img/ChorusMarkings.jpg">
-				</div>
-				<div class="g-70 padded">
-					<h3>Chorus Street Markings</h3>
-					<p>The ground is marked so that contractors know where cables run or need to be run.</p>
-				</div>
-			</div>	
-			<div class="g-row">
-				<div class="g-30">
-					<img src="img/ChorusGreenThing.jpg">
-				</div>
-				<div class="g-70 padded">
-					<h3>Chorus Green Thing</h3>
-					<p>I dunno what this is but it said Chorus on it so I took a picture.</p>
-				</div>
-			</div>	
-			<div class="g-row">
-				<div class="g-30">
-					<img src="img/ChorusCircle.jpg">
-				</div>
-				<div class="g-70 padded">
-					<h3>Chorus Underground Cable Access</h3>
-					<p>A cover placed over the cables run underground so that contractors can access the cables if needed.</p>
-				</div>
-			</div>	
-		</section>
-
 		<section id="devices">
-			<h5>- Connected Devices -</h5>
+			<h2 id="green">- Transmission and Connected Devices -</h2>
 			<div class="g-row">
 				<div class="g-30">
-					<img src="img/Cover.jpg">
+					<img src="img/Spark.jpg">
 				</div>
 				<div class="g-70 padded">
-					<h3>Pipes and Cables</h3>
-					<p>Pipes and cables are run under ground for data transmition.</p>
+					<h3>Spark WiFi Zone</h3>
+					<p>Around the city Spark makes use of their telephone boxes to distribute WiFi for their customers.</p>
 				</div>
 			</div>	
-
+			<div class="g-row" id="greyBack">
+				<div class="g-30">
+					<img src="img/Busstop.jpg">
+				</div>
+				<div class="g-70 padded" id="greyBack">
+					<h3>Bus Stop Time Board</h3>
+					<p>Metlink bus time boards have a little antenna on top so they can receive up to date information on the current bus locations and times.</p>
+				</div>
+			</div>	
+			<div class="g-row">
+				<div class="g-30">
+					<img src="img/Cam.jpg">
+				</div>
+				<div class="g-70 padded">
+					<h3>CCTV Camera</h3>
+					<p>A CCTV surveillance camera will connect wired or wirelessly to a network to transmit a live video feed.</p>
+				</div>
+			</div>	
+			<div class="g-row" id="greyBack">
+				<div class="g-30">
+					<img src="img/Billboard.jpg">
+				</div>
+				<div class="g-70 padded" >
+					<h3>Digital Billboard</h3>
+					<p>This digital billboard cycles through images. It would be connected to a network so that the images can be changed and swapped as new customers want advertisments.</p>
+				</div>
+			</div>	
 		</section>
+
 	</body>
 
 </html>
